@@ -1,0 +1,59 @@
+# Check Docker version
+docker --version
+
+# Get Docker information
+docker info
+
+# Download an image
+docker pull ubuntu
+
+# List downloaded images
+docker images
+
+# Run a container
+docker run ubuntu
+
+# Run container interactively
+docker run -it ubuntu
+
+# List running containers
+docker ps
+
+# List all containers
+docker ps -a
+
+# Stop a container
+docker stop <container_id>
+
+# Start a stopped container
+docker start <container_id>
+
+# Restart a container
+docker restart <container_id>
+
+# Remove a container
+docker rm <container_id>
+
+# Remove an image
+docker rmi <image_name>
+
+# Build an image from Dockerfile
+docker build -t myapp .
+
+# Run a custom image
+docker run myapp
+
+# View container logs
+docker logs <container_id>
+
+# Execute a command inside a running container
+docker exec -it <container_id> bash
+
+# Show Docker networks
+docker network ls
+
+# Show Docker volumes
+docker volume ls
+
+# Remove unused Docker resources
+docker system prune
