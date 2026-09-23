@@ -1,2 +1,17 @@
-# Cloud-Docker-Practice
-Basic cloud computing, Docker, and containerization practice projects.
+# Cloud & Docker Practice
+
+This repository contains basic cloud computing and Docker practice.
+
+## Topics
+
+- Docker
+- Docker Images
+- Docker Containers
+- Docker Compose
+- PostgreSQL with Docker
+
+## Tools
+
+- Docker
+- Docker Compose
+- PostgreSQL
