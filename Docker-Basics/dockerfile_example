@@ -1,0 +1,7 @@
+FROM ubuntu:latest
+
+WORKDIR /app
+
+RUN echo "Hello from Dockerfile!"
+
+CMD ["echo", "Docker container is running successfully!"]
